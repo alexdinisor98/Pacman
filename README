@@ -1,0 +1,15 @@
+Pacman
+
+A light version of the game, where a character is moving on a 2D game table with
+the purpose of getting to the finishing point trying to avoid the fixed and 
+moving obstacles, whose coordinates are changing depending on the player's own position.
+
+Function "move_character" reads the next move , modifies the coordinates of the 
+player and returns 1 if press "q" on the keyboard or 0 otherwise.
+Function "is_the_game_ended" verifies the player's coordinates in the corner from
+south-east.
+
+- It needs to be verified if the player overlaps an obstacel before calculatint the
+new positions of the mobile obstacles before and after.
+
+If the game is finished successfully, the text 'GAME COMPLETED' is shown.
